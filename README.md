@@ -13,5 +13,7 @@ splunk elerning videos: https://education.splunk.com/single-subject-courses?_ga=
 
 splunk elerning by Topic https://www.splunk.com/en_us/training.html?sort=Newest
 
+youtube practical courses using splunk & ML : https://www.youtube.com/c/SiddharthaChakraborty
+
 </pre>
 
