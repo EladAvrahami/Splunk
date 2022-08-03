@@ -18,9 +18,9 @@ https://www.youtube.com/watch?v=k3pO0B7C1Hk
 
 </pre>
 
-<h3>basic search : </h3>
+<h3>basic search commands : </h3>
 <pre>
-commands : 
+ 
 build table and reaname colomn :
 |table feildname1 feildname2 feildname3  | rename feildname1 as nomatterwhatname  feildname2 as anothename
 
