@@ -14,6 +14,26 @@ splunk elerning videos: https://education.splunk.com/single-subject-courses?_ga=
 splunk elerning by Topic https://www.splunk.com/en_us/training.html?sort=Newest
 
 youtube practical courses using splunk & ML : https://www.youtube.com/c/SiddharthaChakraborty
+https://www.youtube.com/watch?v=k3pO0B7C1Hk
 
 </pre>
 
+<h3>basic search : </h3>
+<pre>
+commands : 
+build table and reaname colomn :
+|table feildname1 feildname2 feildname3  | rename feildname1 as nomatterwhatname  feildname2 as anothename
+
+build table and dont show one colomn:
+|table feildname1 feildname2 feildname3  | fields - feildname1 
+
+build table and Makes columns show only unique values  :
+|table feildname1 feildname2 feildname3  |  dedup feildname1 
+
+build table and Makes columns show by a-z  :
+|table feildname1 feildname2 feildname3  |  sort  feildname1  
+
+build table and Makes columns show by z-a  :
+|table feildname1 feildname2 feildname3  |  sort  - feildname1 
+
+</pre>
