@@ -37,3 +37,5 @@ build table and Makes columns show by z-a  :
 |table feildname1 feildname2 feildname3  |  sort  - feildname1 
 
 </pre>
+
+js liborary that implimant charts and graphs - https://apexcharts.com/
