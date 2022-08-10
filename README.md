@@ -10,6 +10,7 @@ SPL -SPLUNK LANGUAGE : https://docs.splunk.com/Documentation/SplunkCloud/latest/
 learn for free:https://education.splunk.com/single-subject-courses?_ga=2.25519290.660583283.1644217651-1092567743.1640770338
 splunk command Doc : https://docs.splunk.com/Documentation
 splunk elerning videos: https://education.splunk.com/single-subject-courses?_ga=2.25519290.660583283.1644217651-1092567743.1640770338
+learn Splunk command youtube: https://www.youtube.com/c/SiddharthaChakraborty/search?query=Splunk%20Commands
 
 splunk elerning by Topic https://www.splunk.com/en_us/training.html?sort=Newest
 
