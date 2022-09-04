@@ -40,3 +40,6 @@ build table and Makes columns show by z-a  :
 </pre>
 
 js liborary that implimant charts and graphs - https://apexcharts.com/
+
+
+https://drive.google.com/file/d/15OfNgGpVqJf_imiwYix-dRepwxMlbICT/view הרצאה בעברית על הכלי 
