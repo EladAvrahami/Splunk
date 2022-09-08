@@ -65,23 +65,23 @@ build table and Makes columns show by z-a  :
 
 
 
-```this is how you write command in splunk apig_appl_40620``` 
+```this is how you write command in splunk ``` 
 ```use shift+enter to drop line```
-index=apig_appl_40620  "fault": "GatewayTimeout"
+index=api  "fault": "GatewayTimeout"
 | timechart count as
 
 
 מראה את כל השגיאות באפיגי לפי חודש 
-index=apig_appl_40620  "fault.name" !=""
+index=api  "fault.name" !=""
 | timechart count as Failures
 
 
 מראה שגיאות באפיגי לפי סוג השגיאה 
-index=apig_appl_40620  "fault.name" !=""
+index=api  "fault.name" !=""
 | chart count  over fault.name
 
 כמו הקודם +נותן שם לעמודה 
-index=apig_appl_40620  "fault.name" !=""
+index=api  "fault.name" !=""
 | chart count as Failures over fault.name
 
 
@@ -100,10 +100,10 @@ index=apig_appl_40620  "fault.name" !=""
 Segmentation - tokenized search terms at search time
 חיפוש של משהו 
 למשל 
-index=apigee "failed password" יחפש או את המילה נכשל או את המילה סיסמא 
+index=api "failed password" יחפש או את המילה נכשל או את המילה סיסמא 
 במידה ואני רוצה לחפש איזושהיא מילה או כתובת איפי שיש בין המס או אותיות רווחים או סימנים מיוחדים אשתמש ב TREM 
 למשל:
-index=apigee  clientip=TREM(76.160.176.252) מחפש את הסטרינג המדוייק ולא 76 או 160 בנפרד למל 
+index=api  clientip=TREM(76.160.176.252) מחפש את הסטרינג המדוייק ולא 76 או 160 בנפרד למל 
 
 
 
