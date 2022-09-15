@@ -111,4 +111,6 @@ index=api  clientip=TREM(76.160.176.252) מחפש את הסטרינג המדוי
 </pre>
 
 S4R : https://splunk4rookies.com/9913/self_register/
+shrtcuts: https://www.splunk.com/content/dam/splunk2/pdfs/solution-guides/splunk-quick-reference-guide.pdf
+
 
