@@ -114,4 +114,24 @@ S4R : https://splunk4rookies.com/9913/self_register/
 shrtcuts: https://www.splunk.com/content/dam/splunk2/pdfs/solution-guides/splunk-quick-reference-guide.pdf
 lab exe: https://drive.google.com/file/d/1f83NhnEQ4B44WqX5BLuBuDxDnocPS56D/view
 
+<!--   
+more sources : 
+https://www.splunk.com/en_us/training/splunk-fundamentals.html?301=/en_us/training/courses/splunk-fundamentals-1.html
+https://www.youtube.com/watch?v=Ogtlym6p1yw
+https://www.splunk.com/en_us/training/free-courses/overview.html
+https://www.splunk.com/pdfs/training/Splunk-Education-Student-Handbook.pdf
+https://www.youtube.com/watch?v=NwxHA-1KDtc
+https://www.youtube.com/watch?v=AEbwfIs7Vts
+https://education.splunk.com/single-subject-courses
+https://docs.splunk.com/Documentation/SplunkCloud/9.0.2205/Search/GetstartedwithSearch
+https://docs.splunk.com/Splexicon:SPL
+https://docs.splunk.com/Documentation/Splunk/9.0.1/SearchReference/Rename
+https://www.youtube.com/watch?v=UUEhxlSFPKo
+https://www.youtube.com/watch?v=ZkMeeFjDiPM&t=539s
+https://www.youtube.com/watch?v=cdWXKBzPZ78&t=6s
+https://www.coursera.org/lecture/splunk-search-expert-102/searching-with-time-I8L4n
+https://www.splunk.com/pdfs/solution-guides/splunk-quick-reference-guide.pdf
+
+
+-->
 
