@@ -135,3 +135,72 @@ https://www.splunk.com/pdfs/solution-guides/splunk-quick-reference-guide.pdf
 
 -->
 
+ splunk 
+ 
+http://ec2-34-243-28-229.eu-west-1.compute.amazonaws.com:80
+
+https://drive.google.com/file/d/1f83NhnEQ4B44WqX5BLuBuDxDnocPS56D/view
+https://splunk4rookies.com/9913/self_register/
+
+UF - agent
+
+
+
+admin
+changeme
+
+splunkbase  -splunk applications
+
+SETTINGS ->  ADD DATA-> MONITOR-> BROWSE 
+
+/var/log/weblogs
+
+ip-172-31-25-35
+
+source="/var/log/weblogs/*" host="ip-172-31-25-35" sourcetype="access_combined"
+
+command - blue
+fubction -purpol
+
+stats -סטטיסטיקות חייבת חעבוד עם פונקציה
+
+action=purchase| timechart count by status limit=10
+
+תצוגה טרנספורמטיבית 
+
+עומד על event-> extract filesd -> מסמן מילה ->validation->save
+
+
+sourcetype="access_combined" status>=400| timechart count by useragent limit=5 useother=false - מעיף ערכים אחרים שלא בטופ 5 
+
+
+lookup -מחירי מוצרים יגיעו ממקום אחר כמו למשל קובץ אקסל 
+enrichment עמ לבצע 
+
+settings-> lookups -> lookup table file -> product_codes.csv
+
+
+
+look up command
+ action=purchase status>=400
+| lookup product_codes.csv product_id
+
+
+
+
+action=purchase status>=400
+| lookup product_codes.csv product_id
+| timechart sum(product_price) 
+
+
+
+action=purchase status>=400
+| lookup product_codes.csv product_id
+| timechart sum(product_price) span=
+
+
+
+
+action=purchase status>=400
+| lookup product_codes.csv product_id
+| timechart sum(product_price) span=1h
